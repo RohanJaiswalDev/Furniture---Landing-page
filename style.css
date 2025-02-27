@@ -47,3 +47,86 @@ html,body{
 #nav-right i {
     padding: 0 10px;
 }
+
+#page1{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+
+#p1-box{
+    padding: 35px;
+    width: 44%;
+    background-color: #fff2e3;
+    position: absolute;
+    bottom: 12%;
+    right: 3%;
+    border: 2px solid #fff2e3;
+    border-radius: 12px;
+    box-shadow: 6px 1px 3px #FFF2D7;
+}
+
+#p1-box h4{
+    font-size: 1.4rem;
+}
+#p1-box h2{
+    font-size: 4.3rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 20px 0;
+    color: #b88e2f;
+}
+
+#p1-box p{
+    padding: 20px 0;
+}
+
+#p1-box button{
+    background-color:#b88e2f;
+    color: white;
+    padding: 20px 52px;
+}
+
+#page2{
+    padding: 10px 40px;
+    height: 100vh;
+    width: 100%;
+}
+#p2-upper{
+    text-align: center;
+    padding: 60px;
+}
+
+#p2-lower{
+    position: relative;
+}
+
+.card-c1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.card-c2{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%);
+    text-align: center;
+}
+.card-c3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+#cards h2 {
+    padding: 30px;
+}
