@@ -38,5 +38,5 @@ Evaluation will be based on:
 - Attention to Detail: Consideration of typography, spacing, and image placement.
 
 
-Designed | Rohan-Devlogs & Gourav-Devlogs : http://rohanjaiswal.info 
+Designed | Rohan-Devlogs, Priyanka Madhwal & Gourav-Gusain : http://rohanjaiswal.info 
 
