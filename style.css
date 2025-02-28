@@ -1,31 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-#header{
+#header {
     padding: 20px;
-    background:rgba(181, 173, 173, 0.633);
+    background: rgba(181, 173, 173, 0.633);
 }
 
-#nav{
+#nav {
     position: relative;
     padding: 10px;
 }
 
-#nav-left{
+#nav-left {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#nav-mid{
+#nav-mid {
     position: absolute;
     top: 0;
     left: 50%;
@@ -38,7 +39,7 @@ html,body{
     color: black;
 }
 
-#nav-right{
+#nav-right {
     position: absolute;
     top: 0;
     right: 0;
@@ -48,7 +49,7 @@ html,body{
     padding: 0 10px;
 }
 
-#page1{
+#page1 {
     position: relative;
     width: 100%;
     height: calc(100vh - 60px);
@@ -60,7 +61,7 @@ html,body{
 
 
 
-#p1-box{
+#p1-box {
     padding: 35px;
     width: 44%;
     background-color: #fff2e3;
@@ -72,10 +73,11 @@ html,body{
     box-shadow: 6px 1px 3px #FFF2D7;
 }
 
-#p1-box h4{
+#p1-box h4 {
     font-size: 1.4rem;
 }
-#p1-box h2{
+
+#p1-box h2 {
     font-size: 4.3rem;
     font-weight: 800;
     line-height: 1;
@@ -83,44 +85,47 @@ html,body{
     color: #b88e2f;
 }
 
-#p1-box p{
+#p1-box p {
     padding: 20px 0;
 }
 
-#p1-box button{
-    background-color:#b88e2f;
+#p1-box button {
+    background-color: #b88e2f;
     color: white;
     padding: 20px 52px;
 }
 
-#page2{
+#page2 {
     padding: 10px 40px;
     height: 100vh;
     width: 100%;
 }
-#p2-upper{
+
+#p2-upper {
     text-align: center;
     padding: 60px;
 }
 
-#p2-lower{
+#p2-lower {
     position: relative;
 }
 
-.card-c1{
+.card-c1 {
     position: absolute;
     top: 0;
     left: 0;
     text-align: center;
 }
-.card-c2{
+
+.card-c2 {
     position: absolute;
     top: 0;
     right: 50%;
     transform: translate(50%);
     text-align: center;
 }
-.card-c3{
+
+.card-c3 {
     position: absolute;
     top: 0;
     right: 0;
@@ -129,4 +134,59 @@ html,body{
 
 #cards h2 {
     padding: 30px;
+}
+
+#page3 {
+    width: 100%;
+    height: 100vh;
+    padding: 20px 40px;
+}
+
+#p3-upper h1{
+    padding: 0px 0 40px 0;
+    text-align: center;
+}
+
+#p3-lower{
+    position: relative;
+}
+
+.cards-p3-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f4f5f7;
+}
+.cards-p3-2{
+    position: absolute;
+    top: 0;
+    left: 28%;
+}
+.cards-p3-3{
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+.cards-p3-4{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-p3{
+    margin-top: 40px;
+}
+
+.card-p3 h4{
+    font-size: 1.4rem;
+    padding: 10px 0 0 12px ;
+}
+.card-p3 p{
+    font-size: 1rem;
+    padding: 10px 12px;
+}
+
+.card-p3 h6{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 0 18px 12px;
 }
