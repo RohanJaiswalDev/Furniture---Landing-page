@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', Courier New, Courier, monospace;
 }
 
 html,
@@ -11,20 +14,22 @@ body {
 }
 
 #header {
-    padding: 20px;
+    padding: 1vw;
     background: rgba(181, 173, 173, 0.633);
 }
 
 #nav {
     position: relative;
-    padding: 10px;
+    padding: 1vw;
 }
 
 #nav-left {
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: cover;
 }
+
 
 #nav-mid {
     position: absolute;
@@ -34,7 +39,7 @@ body {
 }
 
 #nav-mid a {
-    padding: 0 10px;
+    padding: 0 1vw;
     text-decoration: none;
     color: black;
 }
@@ -46,13 +51,14 @@ body {
 }
 
 #nav-right i {
-    padding: 0 10px;
+    padding: 0 1vw;
+    font-size: 1rem;
 }
 
 #page1 {
     position: relative;
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-image: url(images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -63,7 +69,8 @@ body {
 
 #p1-box {
     padding: 35px;
-    width: 44%;
+    width: 44vw;
+    height: 30vw;
     background-color: #fff2e3;
     position: absolute;
     bottom: 12%;
@@ -96,14 +103,23 @@ body {
 }
 
 #page2 {
-    padding: 10px 40px;
+    padding: 20px 40px 0 40px;
     height: 100vh;
     width: 100%;
 }
 
 #p2-upper {
     text-align: center;
-    padding: 60px;
+}
+
+#p2-upper h2 {
+    padding: 6px 0;
+    font-size: 4.5rem;
+}
+
+#p2-upper p {
+    padding-bottom: 4rem;
+    font-size: 19px;
 }
 
 #p2-lower {
@@ -132,61 +148,321 @@ body {
     text-align: center;
 }
 
-#cards h2 {
-    padding: 30px;
+#cards img {
+    height: 28vw;
+    background: skyblue;
 }
 
+#cards h2 {
+    font-size: 2.2rem;
+}
+
+/* Page-3-Section */
 #page3 {
     width: 100%;
     height: 100vh;
-    padding: 20px 40px;
+    background: lightgreen;
+    padding: 1vw 3vw 0 3vw;
 }
 
-#p3-upper h1{
-    padding: 0px 0 40px 0;
+#p3-upper h1 {
+    padding-bottom: 1vw;
     text-align: center;
+    font-size: 2.5rem;
 }
 
-#p3-lower{
+#p3-lower {
     position: relative;
 }
 
-.cards-p3-1{
+.cards-p3-1 {
     position: absolute;
     top: 0;
     left: 0;
-    background: #f4f5f7;
 }
-.cards-p3-2{
+
+.cards-p3-2 {
     position: absolute;
     top: 0;
     left: 28%;
 }
-.cards-p3-3{
+
+.cards-p3-3 {
     position: absolute;
     top: 0;
     left: 55%;
 }
-.cards-p3-4{
+
+.cards-p3-4 {
     position: absolute;
     top: 0;
     right: 0;
 }
-.card-p3{
-    margin-top: 40px;
+
+.card-p3 {
+    height: 20vw;
+    margin-bottom: 20px;
+    background: rgb(244, 245, 247);
+    width: 300px;
+
 }
 
-.card-p3 h4{
-    font-size: 1.4rem;
-    padding: 10px 0 0 12px ;
+.card-p3 img {
+    height: 11vw;
+    width: 100%;
+    object-fit: cover;
 }
-.card-p3 p{
+
+.card-p3 h4 {
+    font-size: 1.4rem;
+    padding: 10px 0 0 12px;
+}
+
+.card-p3 p {
     font-size: 1rem;
     padding: 10px 12px;
 }
 
-.card-p3 h6{
+.card-p3 h6 {
     font-size: 1rem;
     font-weight: 700;
     padding: 0 0 18px 12px;
+}
+
+#pg-3-btn {
+    position: relative;
+}
+
+#pg-3-btn button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 80px;
+    margin-top: 350px;
+}
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+#p4-left {
+    position: absolute;
+    width: 29vw;
+    top: 30%;
+    left: 35px;
+}
+
+#p4-container h2 {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
+
+#p4-container p {
+    padding: 1.5vw 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#p4-container button {
+    padding: 1vw 2vw;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+#p4-mid {
+    position: absolute;
+    height: 100%;
+    width: 36vw;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url(/images/room-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#p4-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 44vw;
+    width: 30vw;
+}
+
+#p4-right img {
+    width: 100%;
+    height: 100%;
+}
+
+#page5 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#p5-upper {
+    position: relative;
+    top: 6%;
+}
+
+#p5-upper h1,
+#p5-upper p {
+    text-align: center;
+    padding: .3vw 0;
+}
+
+#p5-lower {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 88px);
+}
+
+#p5-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38.6vw;
+    height: 100%;
+}
+
+#p5-left-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#p5-left-container .p5-img1 {
+    height: 48.5%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/images/product-4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-left-container .p5-img2 {
+    height: 38.5%;
+    width: 78%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background-image: url(/images/setup-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-left-container .p5-img3 {
+    height: 50%;
+    width: 38%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(/images/product-7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-left-container .p5-img4 {
+    height: 35%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-image: url(/images/setup-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-mid {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20vw;
+    height: 65%;
+    background-image: url(/images/center-setup-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#p5-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38.6vw;
+    height: 100%;
+}
+
+#p5-right-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#p5-right-container .p5-l-img1 {
+    height: 46.5%;
+    width: 52%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-image: url(/images/setup-4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-right-container .p5-l-img2 {
+    height: 56.5%;
+    width: 45.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(/images/setup-6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-right-container .p5-l-img3 {
+    height: 42%;
+    width: 34%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(/images/setup-5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p5-right-container .p5-l-img4 {
+    height: 30%;
+    width: 49%;
+    position: absolute;
+    top: 58%;
+    left: 36.5%;
+    background-image: url(/images/setup-7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page6 {
+    width: 100%;
+    height: 100vh;
+    background: lightsalmon;
 }
