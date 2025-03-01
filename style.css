@@ -150,7 +150,6 @@ body {
 
 #cards img {
     height: 28vw;
-    background: skyblue;
 }
 
 #cards h2 {
@@ -161,8 +160,7 @@ body {
 #page3 {
     width: 100%;
     height: 100vh;
-    background: lightgreen;
-    padding: 1vw 3vw 0 3vw;
+    padding: 0vw 3vw 0 3vw;
 }
 
 #p3-upper h1 {
@@ -176,34 +174,38 @@ body {
 }
 
 .cards-p3-1 {
+    width: 15%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 9%;
 }
 
 .cards-p3-2 {
+    width: 15%;
     position: absolute;
     top: 0;
-    left: 28%;
+    left: 32%;
 }
 
 .cards-p3-3 {
+    width: 15%;
     position: absolute;
     top: 0;
-    left: 55%;
+    right: 32%;
 }
 
 .cards-p3-4 {
+    width: 15%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 9%;
 }
 
 .card-p3 {
     height: 20vw;
     margin-bottom: 20px;
-    background: rgb(244, 245, 247);
-    width: 300px;
+    background-color:#f4f5f7;
+    width: 100%;
 
 }
 
@@ -229,18 +231,6 @@ body {
     padding: 0 0 18px 12px;
 }
 
-#pg-3-btn {
-    position: relative;
-}
-
-#pg-3-btn button {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px 80px;
-    margin-top: 350px;
-}
 
 #page4 {
     height: 100vh;
@@ -463,7 +453,7 @@ body {
 
 #page6 {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 75px);
 }
 
 #p6-container {
@@ -569,4 +559,10 @@ body {
     text-align: start;
     border-bottom: 2px solid black;
     color: #000;
+}
+
+#footer h1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2vw 8.5vw;
 }
