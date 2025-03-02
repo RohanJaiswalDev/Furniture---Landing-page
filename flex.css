@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+#nav-left img {
+    height: 50px;
+}
+
+#nav-mid {
+    display: flex;
+    gap: 2vw;
+}
+
+#nav-mid a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+#nav-right {
+    display: flex;
+    gap: 2vw;
+}
+
+#nav-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#page1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#p1-box {
+    padding: 35px;
+    width: 44vw;
+    height: 30vw;
+    background-color: #fff2e3;
+    margin: 3%;
+    border: 2px solid #fff2e3;
+    border-radius: 12px;
+    box-shadow: 6px 1px 3px #FFF2D7;
+}
+
+#p1-box h4 {
+    font-size: 1.4rem;
+}
+
+#p1-box h2 {
+    font-size: 4.3rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 20px 0;
+    color: #b88e2f;
+}
+
+#p1-box p {
+    padding: 20px 0;
+}
+
+#p1-box button {
+    background-color: #b88e2f;
+    color: white;
+    padding: 20px 52px;
+    border: none;
+    cursor: pointer;
+}
+
+#page2 {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#p2-upper h2 {
+    font-size: 4.5rem;
+    padding: 6px 0;
+}
+
+#p2-upper p {
+    font-size: 19px;
+    padding-bottom: 4rem;
+}
+
+#p2-lower {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.card-c1,
+.card-c2,
+.card-c3 {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+#cards img {
+    height: 28vw;
+    max-width: 100%;
+}
+
+#cards h2 {
+    font-size: 2.2rem;
+}
+
+#page3 {
+    padding: 3vw;
+    text-align: center;
+}
+
+#p3-upper h1 {
+    font-size: 2.5rem;
+    padding-bottom: 1vw;
+}
+
+#p3-lower {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.cards-p3-1,
+.cards-p3-2,
+.cards-p3-3,
+.cards-p3-4 {
+    flex: 1 1 22%;
+    text-align: center;
+}
+
+.card-p3 {
+    background-color: #f4f5f7;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.card-p3 img {
+    border-radius: 6px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-p3 h4 {
+    font-size: 1.4rem;
+    padding: 10px 0 0 12px;
+}
+
+.card-p3 p {
+    font-size: 1rem;
+    padding: 10px 12px;
+}
+
+.card-p3 h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 0 18px 12px;
+}
+
+#page4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3vw;
+    background-color: #f4f5f7;
+}
+
+#p4-left {
+    flex: 1 1 30%;
+}
+
+#p4-container h2 {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
+
+#p4-container p {
+    padding: 1.5vw 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#p4-container button {
+    padding: 1vw 2vw;
+    font-size: .9rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#p4-mid {
+    flex: 1 1 40%;
+    height: 50vw;
+    background-image: url(/images/room-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#p4-right {
+    flex: 1 1 30%;
+}
+
+#p4-right img {
+    width: 100%;
+    height: auto;
+}
+
+#page5 {
+    padding: 3vw;
+    text-align: center;
+}
+
+#page5 {
+    padding: 3vw;
+    text-align: center;
+}
+
+#p5-upper {
+    margin-bottom: 3vw;
+}
+
+#p5-upper p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+#p5-upper h1 {
+    font-size: 2.5rem;
+    color: #b88e2f;
+}
+
+#p5-lower {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+#p5-left,
+#p5-mid,
+#p5-right {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.p5-img1,
+.p5-img2,
+.p5-img3,
+.p5-img4,
+.p5-l-img1,
+.p5-l-img2,
+.p5-l-img3,
+.p5-l-img4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#p5-left .p5-img1 {
+    height: 20vw;
+    background-image: url(/images/product-4.png);
+}
+
+#p5-left .p5-img2 {
+    height: 15vw;
+    background-image: url(/images/setup-1.png);
+}
+
+#p5-left .p5-img3 {
+    height: 20vw;
+    background-image: url(/images/product-7.png);
+}
+
+#p5-left .p5-img4 {
+    height: 15vw;
+    background-image: url(/images/setup-2.png);
+}
+
+#p5-mid {
+    height: 75vw;
+    background-image: url(/images/center-setup-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#p5-right .p5-l-img1 {
+    height: 15vw;
+    background-image: url(/images/setup-4.png);
+}
+
+#p5-right .p5-l-img2 {
+    height: 20vw;
+    background-image: url(/images/setup-6.png);
+}
+
+#p5-right .p5-l-img3 {
+    height: 15vw;
+    background-image: url(/images/setup-5.png);
+}
+
+#p5-right .p5-l-img4 {
+    height: 20vw;
+    background-image: url(/images/setup-7.png);
+}
+
+#page6 {
+    padding: 3vw;
+    background-color: #f4f5f7;
+}
+
+#p6-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+#p6-left,
+#p6-mid,
+#p6-right {
+    flex: 1 1 30%;
+}
+
+#p6-left h1 {
+    font-size: 2rem;
+}
+
+#p6-left p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 2vw;
+    color: rgb(141, 137, 137);
+}
+
+#p6-mid-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
+}
+
+#p6-mid-left,
+#p6-mid-right {
+    flex: 1 1 45%;
+}
+
+#p6-mid-left p,
+#p6-mid-right p,
+#p6-right p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(141, 137, 137);
+}
+
+#p6-mid-left ul,
+#p6-mid-right ul {
+    list-style: none;
+}
+
+#p6-mid-left ul li,
+#p6-mid-right ul li {
+    padding-bottom: 3.5vw;
+}
+
+#p6-mid-left ul a,
+#p6-mid-right ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#p6-right input {
+    font-size: .9rem;
+    font-weight: 300;
+    border: none;
+    text-align: start;
+    padding-right: 2vw;
+    border-bottom: 2px solid black;
+    color: rgb(141, 137, 137);
+}
+
+#p6-right button {
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    text-align: start;
+    border-bottom: 2px solid black;
+    color: #000;
+    cursor: pointer;
+}
+
+#footer {
+    text-align: center;
+    padding: 2vw;
+    background-color: #f4f5f7;
+}
+
+#footer h1 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    #nav-mid {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #f4f4f4;
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-mid a {
+        padding: 10px 0;
+    }
+
+    #nav-mid.active {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    #p1-box {
+        width: 400px;
+        height: 450px;
+        margin: 50px;
+    }
+
+    #p1-box h2 {
+        font-size: 2rem;
+    }
+
+    #p2-lower {
+        flex-direction: column;
+    }
+
+    #p3-lower {
+        flex-direction: column;
+    }
+
+    #page4 {
+        flex-direction: column;
+    }
+
+    #p4-left,
+    #p4-mid,
+    #p4-right {
+        flex: 1 1 100%;
+    }
+
+    #p5-lower {
+        flex-direction: column;
+    }
+
+    #p6-container {
+        flex-direction: column;
+    }
+
+    #p5-lower {
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    #p5-left,
+    #p5-mid,
+    #p5-right {
+        flex: 1 1 100%;
+    }
+
+    #p5-left .p5-img1,
+    #p5-left .p5-img2,
+    #p5-left .p5-img3,
+    #p5-left .p5-img4,
+    #p5-right .p5-l-img1,
+    #p5-right .p5-l-img2,
+    #p5-right .p5-l-img3,
+    #p5-right .p5-l-img4 {
+        height: 40vw;
+    }
+
+    #p5-mid {
+        height: 80vw;
+    }
+
+    #p5-upper p {
+        font-size: 1rem;
+    }
+
+    #p5-upper h1 {
+        font-size: 2rem;
+    }
+
+    #cards img {
+        height: 100%;
+    }
+
+    .card-p3 img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
